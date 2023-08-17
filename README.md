@@ -6,12 +6,12 @@ WebApp for managing and tracking expensives.
 
 To start the application run the following command on the root folder:
 
-### `npm start``
+### `npm start`
 
 This command will initiate the application on `localhost:8000`.
 To build the application run the following command:
 
-### `npm build``
+### `npm build`
 
 ## 2. Applications Features
 
