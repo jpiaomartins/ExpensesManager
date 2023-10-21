@@ -30,23 +30,8 @@ module.exports = {
         },
       },
       {
-        test: /\.(sa|sc|c)ss$/,
-        use: [
-          "style-loader",
-          {
-            loader: "css-loader",
-            options: {
-              importLoaders: 1,
-              modules: true
-            }
-          }
-        ],
-        include: /\.module\.css$/,
-      },
-      {
         test: /\.(sa|sc|c)ss$/, // styles files
-        use: ["style-loader", "css-loader"],
-        exclude: /\.module\.css$/,
+        use: ["style-loader", "css-loader"]
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/, // to import images and fonts

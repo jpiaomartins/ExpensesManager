@@ -13,7 +13,14 @@ To build the application run the following command:
 
 ### `npm build`
 
-## 2. Applications Features
+## 2. Project Strcture
+
+The project is built using the React library. The project is structured following the following rules:
+1. **src:** root folder with all the code
+    1. **components:** folder with all the single React components
+    2. **containers:** folder with major React components that utilize other components
+
+## 3. Applications Features
 
 This chapter intent to describe the basic features of the web application:
 

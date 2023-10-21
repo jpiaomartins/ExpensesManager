@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex: wrap;
+}
+
+.container.main {
+    height: 100vh;
+}
+
+.container .navbar-section {
+    flex-grow: 1;
+    background-color: var(--primary-color);
+}
+
+.container .content-section {
+    flex-grow: 7;
+    background-color: var(--background-color);
+}

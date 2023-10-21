@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgba(0, 136, 255, 1);
+    --background-color: rgba(209, 209, 209, 1);
+}
+
+body {
+    margin: 0;
+}
